@@ -1,0 +1,59 @@
+.bigContainerBlack{
+    min-width: 100%;
+    height: auto;
+    background-color: #141414;
+    padding: 40px 10px 40px 10px ;
+    overflow: hidden;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.name{
+    color: white;
+}
+.number {
+    color: white;
+}
+
+
+.imageBanner{
+    position: relative;
+    z-index: 0;
+    height: 100em;
+    width: auto;
+}
+
+.heading{
+    position: absolute;
+    font-size: 10em;
+    z-index: 10;
+    
+}
+
+.pinkButton{
+    height: 60px;
+    width: 60px;
+    background-color: #e91e63; 
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pinkButton svg{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    fill: white;
+
+}
